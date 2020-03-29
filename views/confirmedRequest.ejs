@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>CommuniCare Request Submitted</title>
+
+    <!-- Icons font CSS-->
+    <link href="/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="/css/poppins.css" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="/css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper  p-t-130 p-b-100 font-poppins" style="background-color:rgb(2,199,218)">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+
+                    <h2 class="title" style="margin:30px 0px" style="color:rgb(2,199,218);">CommuniCare Request Submitted!</h2>
+                    Your request will be confirmed by our team shortly!
+                </br></br></br></br>
+                <div class="row row-space">
+                    <div class="col-2">
+                        <button class="btn btn--radius-2" style="background-color:rgb(2,199,218)" type="submit"><a href="/request">Submit Another Request</a></button>
+                    </div>
+                    <div class="col-2">
+                        <button class="btn btn--radius-2" style="background-color:rgb(2,199,218)" type="submit"><a href="/request">Check Your Request History</a></button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+    function activatePlacesSearch(){
+        var input = document.getElementById('search_term');
+        var autocomplete = new google.maps.places.Autocomplete(input);
+    }
+    </script>
+
+    <!-- Jquery JS-->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="/vendor/select2/select2.min.js"></script>
+    <script src="/vendor/datepicker/moment.min.js"></script>
+    <script src="/vendor/datepicker/daterangepicker.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwh2UyvdTjG1QSWKMLk4fX1BSOI0KS9Ag&libraries=places&callback=activatePlacesSearch"></script>
+    <!-- Main JS-->
+    <script src="/js/global.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->
