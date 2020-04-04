@@ -4,7 +4,7 @@ var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
-var connectionString = "mongodb+srv://communicare:LIyidGCkRpbOvWhX@cluster0-37iwx.mongodb.net/communicare?retryWrites=true&w=majority";
+var connectionString = "mongodb+srv://@cluster0-37iwx.mongodb.net/communicare?retryWrites=true&w=majority";
 
 // App settings
 mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true});
